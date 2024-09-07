@@ -19,12 +19,12 @@ The Library Management System automates attendance recording for students and st
 - **Software:** XAMPP, MySQL Workbench, Python (with libraries: OpenCV, Numpy, PIL, PyAutoGUI, etc.)
 - **Hardware:** High-resolution camera for facial recognition
 
-User Roles
+#### User Roles
 
 - **Admin:** Manages student and staff records, generates attendance reports, and accesses the database.
 - **Students:** Logs in and out via facial recognition; a double beep signals login success, while a single beep indicates logout.
 
-System and Design
+#### System and Design
 
 - Supports QR code generation for library cards.
 - Utilizes facial recognition for precise attendance tracking.
@@ -49,28 +49,28 @@ System and Design
 
 ### ADMIN GUIDE
 
-Starting the System
+#### Starting the System
 
 1. **Launch XAMPP:** Open the XAMPP Control Panel and start the Apache module.
-1. **Access the System:** Open a browser and navigate to “localhost/odugu/”.
+2. **Access the System:** Open a browser and navigate to “localhost/odugu/”.
 
-Managing Attendance
+#### Managing Attendance
 
 1. **Admin Dashboard:** Log in with admin credentials to access the dashboard, view attendance logs, and export reports in Excel format.
-1. **Database Management:** Add, update, or delete student profiles as needed, and manage suspensions.
+2. **Database Management:** Add, update, or delete student profiles as needed, and manage suspensions.
 
 ### BUDGET OVERVIEW
 
-Justification for Equipment
+**Justification for Equipment**
 
 - **Camera:** Essential for precise facial recognition (**5k**).
 - **Workstation Setup:** Includes hardware and peripherals necessary for system operation (**3k**).
 
-Software Costs
+**Software Costs**
 
 **Python Libraries, MySQL, QR Code Tools:** Open-source, no cost.
 
-FEATURES AND ADDITIONAL DETAILS
+### FEATURES AND ADDITIONAL DETAILS
 
 - **Real-Time Display:** A live clock on the admin dashboard for tracking attendance.
 - **Database Management:** Admins can view and manage student profiles, including departmental details and suspension status.
