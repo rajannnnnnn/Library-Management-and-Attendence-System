@@ -13,7 +13,7 @@ The Library Management System automates attendance recording for students and st
 
 ### METHODOLOGY
 
-Software & Hardware Requirements
+#### Software & Hardware Requirements
 
 - **Operating System:** Windows 10 or 11
 - **Software:** XAMPP, MySQL Workbench, Python (with libraries: OpenCV, Numpy, PIL, PyAutoGUI, etc.)
