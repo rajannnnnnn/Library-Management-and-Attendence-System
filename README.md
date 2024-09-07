@@ -1,4 +1,4 @@
-﻿**GIET - Central Library Attendance Management System**
+﻿## GIET - Central Library Attendance Management System
 
 INTRODUCTION
 
