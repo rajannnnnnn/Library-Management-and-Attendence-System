@@ -1,4 +1,4 @@
-﻿## GIET - Central Library Attendance Management System
+## GIET - Central Library Attendance Management System
 
 ### INTRODUCTION
 
@@ -32,19 +32,18 @@ The Library Management System automates attendance recording for students and st
 ### IMPLEMENTATION PHASES
 
 1. **System Setup:** Install and configure XAMPP, MySQL, and Python.
-1. **Module Development:** Build facial recognition and QR code generation functionalities.
-1. **Dashboard & Features:** Develop the admin dashboard, attendance management system, and reporting tools.
-1. **Testing & Debugging:** Perform thorough testing and debugging for optimal performance.
-1. **Deployment & Presentation:** Deploy the system and present the final project.
+2. **Module Development:** Build facial recognition and QR code generation functionalities.
+3. **Dashboard & Features:** Develop the admin dashboard, attendance management system, and reporting tools.
+4. **Testing & Debugging:** Perform thorough testing and debugging for optimal performance.
+5. **Deployment & Presentation:** Deploy the system and present the final project.
 
 ### INSTALLATION GUIDE
 
 1. **Install XAMPP:** Download and install the XAMPP software.
 2. **Project Files:** Copy the project files to “C:\xampp\htdocs”.
 3. **MySQL Setup:** Download and install MySQL, including Server, Workbench, and Shell.
-4. **Database Initialization:** Import “lib\_data.sql” in MySQL Workbench or run the
-   queries from “query.txt”.
-5. **Python Libraries:** Install required libraries via pip
+4. **Database Initialization:** Import “lib\_data.sql” in MySQL Workbench or run the queries from “query.txt”.
+5. **Python Libraries:** Install required libraries via pip:
    _mysql, numpy, pillow, pyautogui, opencv-python-headless, winsound_
 
 ### ADMIN GUIDE
