@@ -1,88 +1,154 @@
-## GIET - Central Library Attendance Management System
+📚 GIET - Central Library Attendance Management System
 
-### INTRODUCTION
+An advanced library attendance tracking solution using Facial Recognition and QR Code Scanning. Designed to streamline library operations and enhance security through automation.
 
-The Library Management System automates attendance recording for students and staff using QR codes and facial recognition technology. It enables efficient library card issuance, accurate attendance logging, and enhanced security, all through a user-friendly interface and streamlined workflows.
 
-### OBJECTIVES
+---
 
-- Automate attendance logging for library entry and exit.
-- Use QR codes and facial recognition for secure, efficient tracking.
-- Provide a user-friendly interface with robust security.
-- Generate detailed reports for effective library management.
+🚀 Introduction
 
-### METHODOLOGY
+The GIET Central Library Attendance Management System automates student and staff attendance logging with real-time facial recognition and QR code technology. It offers a secure, efficient, and user-friendly interface for managing library access and generating attendance reports.
 
-#### Software & Hardware Requirements
 
-- **Operating System:** Windows 10 or 11
-- **Software:** XAMPP, MySQL Workbench, Python (with libraries: OpenCV, Numpy, PIL, PyAutoGUI, etc.)
-- **Hardware:** High-resolution camera for facial recognition
+---
 
-#### User Roles
+🎯 Objectives
 
-- **Admin:** Manages student and staff records, generates attendance reports, and accesses the database.
-- **Students:** Logs in and out via facial recognition; a double beep signals login success, while a single beep indicates logout.
+✅ Automate library entry and exit logs
 
-#### System and Design
+✅ Ensure secure identification using facial recognition
 
-- Supports QR code generation for library cards.
-- Utilizes facial recognition for precise attendance tracking.
+✅ Issue scannable QR code library cards
 
-### IMPLEMENTATION PHASES
+✅ Provide a user-friendly admin interface
 
-1. **System Setup:** Install and configure XAMPP, MySQL, and Python.
-2. **Module Development:** Build facial recognition and QR code generation functionalities.
-3. **Dashboard & Features:** Develop the admin dashboard, attendance management system, and reporting tools.
-4. **Testing & Debugging:** Perform thorough testing and debugging for optimal performance.
-5. **Deployment & Presentation:** Deploy the system and present the final project.
+✅ Enable exportable reports for effective management
 
-### INSTALLATION GUIDE
 
-1. **Install XAMPP:** Download and install the XAMPP software.
-2. **Project Files:** Copy the project files to “C:\xampp\htdocs”.
-3. **MySQL Setup:** Download and install MySQL, including Server, Workbench, and Shell.
-4. **Database Initialization:** Import “lib\_data.sql” in MySQL Workbench or run the queries from “query.txt”.
-5. **Python Libraries:** Install required libraries via pip:
-   _mysql, numpy, pillow, pyautogui, opencv-python-headless, winsound_
 
-### ADMIN GUIDE
+---
 
-#### Starting the System
+🛠️ Tech Stack
 
-1. **Launch XAMPP:** Open the XAMPP Control Panel and start the Apache module.
-2. **Access the System:** Open a browser and navigate to “localhost/odugu/”.
+Frontend: HTML, CSS (Admin Dashboard UI)
 
-#### Managing Attendance
+Backend: Python, MySQL
 
-1. **Admin Dashboard:** Log in with admin credentials to access the dashboard, view attendance logs, and export reports in Excel format.
-2. **Database Management:** Add, update, or delete student profiles as needed, and manage suspensions.
+Libraries: opencv-python-headless, numpy, pillow, pyautogui, winsound
 
-### BUDGET OVERVIEW
+Tools: XAMPP, MySQL Workbench, VS Code
 
-**Justification for Equipment**
+Platform: Windows 10/11
 
-- **Camera:** Essential for precise facial recognition (**5k**).
-- **Workstation Setup:** Includes hardware and peripherals necessary for system operation (**3k**).
 
-**Software Costs**
 
-**Python Libraries, MySQL, QR Code Tools:** Open-source, no cost.
+---
 
-### FEATURES AND ADDITIONAL DETAILS
+🔧 Installation Guide
 
-- **Real-Time Display:** A live clock on the admin dashboard for tracking attendance.
-- **Database Management:** Admins can view and manage student profiles, including departmental details and suspension status.
-- **Student Profile Management:** Options to update details, manage suspensions, and delete profiles.
-- **Report Generation:** Ability to export attendance reports.
+1. Install XAMPP:
 
-### TEAM CONTRIBUTIONS (Final year - IT)
+Download from apachefriends.org and install.
 
-- **Mohanraj S:** System Interface and Design.
-- **Rajkumar K:** Development and Testing.
-- **Rajan N:** Database Management.
-- **Rishi Kanna S:** Algorithms and Error Handling
 
-### CONCLUSION
 
-The Library Management System optimizes library operations with automated QR code and facial recognition attendance, delivering a secure, efficient, and user-friendly solution for streamlined administration and effective work management.
+2. Project Setup:
+
+Copy project files to C:\xampp\htdocs\odugu\
+
+
+
+3. MySQL Installation:
+
+Install MySQL Server, Workbench, and Shell.
+
+
+
+4. Initialize Database:
+
+Import lib_data.sql or run query.txt using MySQL Workbench.
+
+
+
+5. Install Python Libraries:
+
+pip install mysql numpy pillow pyautogui opencv-python-headless winsound
+
+
+
+
+---
+
+🧑‍💼 Admin Guide
+
+Starting the System
+
+Launch XAMPP → Start Apache
+
+Visit: http://localhost/odugu/ in your browser
+
+
+Admin Dashboard Features
+
+📊 View live attendance logs
+
+🧾 Export logs in Excel format
+
+👤 Manage student/staff profiles
+
+🚫 Suspend or delete accounts
+
+⏰ Real-time clock display on dashboard
+
+
+
+---
+
+🧹 System Design
+
+🔳 QR Code Generation: For issuing scannable library cards
+
+📸 Facial Recognition: Ensures accurate and secure identification
+
+🗃️ MySQL Database: Manages user data, logs, and admin actions
+
+
+
+---
+
+💰 Budget Overview
+
+Item	Purpose	Estimated Cost
+
+Camera	Facial recognition accuracy	₹5,000
+Setup	Workstation + peripherals	₹3,000
+Software	Open-source tools and libraries	₹0
+
+
+
+---
+
+👨‍💻 Team Contributions
+
+Team Member	Responsibility
+
+Mohanraj S	UI/UX Design and Frontend Development
+Rajkumar K	Module Coding and Testing
+Rajan N	Database Architecture and Management
+Rishi Kanna S	Algorithm Design and Error Handling
+
+
+
+---
+
+✅ Conclusion
+
+This project demonstrates how automation and AI can improve efficiency and security in academic libraries. The system is scalable, budget-friendly, and easy to deploy in any institution seeking to modernize their attendance and access management process.
+
+
+---
+
+📌 License
+
+This project is open-source and free to use under the MIT License.
+
